@@ -12,9 +12,12 @@ Install AWScli:
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
 sudo ./aws/install
-
+--------------------------
+aws configure
 command to set aws context:
 aws eks update-kubeconfig --name EKS_CLUSTER_NAME --region us-west-2
+aws eks update-kubeconfig --name eks-cluster-jou --region us-east-1
+
 
 clone the AWS repo
 git clone
