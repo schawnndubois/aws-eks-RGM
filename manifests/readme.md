@@ -7,7 +7,6 @@ chmod +x ./kubectl
 sudo cp ./kubectl /usr/local/bin
 export PATH=/usr/local/bin:$PATH
 
-
 Install AWScli:
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
